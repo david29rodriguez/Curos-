@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="stylos.css">
+    <title>Encriptador / Desencriptador</title> 
+</head>
+<body>
+   <img src="logo.png" alt="Logo de la empresa" class="logo">
+  <div class="container">
+    <textarea type="text" id="inputText" placeholder="Ingrese texto aqui" oninput="enableEncryptButton()"></textarea>
+
+    <br>
+   <button id="encryptButton" onclick="encryptText()">Encriptar</button>
+   <button class="decryptButton" id="decryptButton" onclick="decryptText()" disabled>Desencriptar</button>
+  </div>  
+
+     <div class="container-texto">
+   <textarea type="text" id="outputText" placeholder="Aun no hay textos "></textarea>
+      <br><br>
+    <button id="copyButton" onclick="copyText()" disabled>Copiar Texto</button>
+
+  </div>
+  
+    <!-- Archivo de vinculación -->
+    <script src="script.js"></script>
+</body>
+</html>

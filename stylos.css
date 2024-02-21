@@ -1,0 +1,129 @@
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+.logo{
+position: absolute;
+top: 20px; 
+left: 20px; 
+width: 100px;
+height: auto; 
+}
+
+.container {
+
+    flex-direction: column;
+    background-color: #f5f5f5;;
+    border-radius: 35px;
+    padding:100px;
+    width: 20%;
+    margin:  10px;
+    height: 350px;
+    margin-top:20px;
+    left: 5px;
+
+
+}
+
+#inputText{
+
+    background-color: #f5f5f5;
+    position: relative;
+    margin-top:5%;
+    border: none;
+    padding: 20px;
+    height: 90px;
+    text-align: center;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 150%;
+    margin-top:-40px;
+    right: 90px;
+
+}
+
+
+
+#encryptButton{
+	opacity: 80%;
+    font-size:20px;
+	border: 0;
+	background-color: blue;
+    text-align: center;
+    width:20%;
+    position:absolute;
+    margin-top:285px;
+    right:65%;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+.encryptButton:hover{
+    font-size:25px;
+    transition: 1s;
+
+}
+.decryptButton{
+    text-align: center;
+    width:20%;
+    position:absolute;
+    margin-top: 285px;
+    right:40%;
+    height: 60px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.decryptButton:hover{
+   font-size: 20px;
+    transition: 1s;
+ }
+
+ .container-texto{
+ 	opacity: 70%;
+    background-color:white;
+    border-radius: 35px;
+    padding: 20px ;
+    width: 30%;
+    margin:10px;
+    height:550px;
+    position:relative;
+    left: 200px;
+
+
+ }
+#outputText{
+    border: none;
+	text-align: center;
+	font-size: 20px;
+    border-radius: 20px;
+    height:120px;
+    width: 95%;
+    margin-top:50px;
+   
+
+}
+#outputText:hover {
+	font-size: 20px;
+}
+#copyButton {
+	text-align: center;
+    cursor: pointer;
+    width:60%;
+    position:absolute;
+    margin-top:290px;
+    right:65px;
+    height: 60px;
+    border-radius: 30px;
+    
+}
+#copyButton:hover {   
+    font-size: 20px;
+    transition: 1s;
+}
